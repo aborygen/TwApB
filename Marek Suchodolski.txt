@@ -1,0 +1,43 @@
+1. Utworzyć w roboczym katalogu TwApB plik tekstowy o nazwie 'ImieNazwisko'. 
+mkdir TwApB
+git add MarekSuchodolski.txt
+
+2. W pliku tym należy wpisywać wszystkie poniżej wykonane komendy Git i odpowiedzi na pytania.
+-----
+3. Kiedy we wskazanym repozytorium wykonano ostatni commit?
+$ git log
+commit 62e28112832523d6f45f6a85af5f4e02a566b9cf (HEAD -> master, origin/master, origin/HEAD)
+Author: Joanna Kolodziejczyk <jkolodziejczyk@wi.zut.edu.pl>
+Date:   Fri Dec 15 13:47:15 2017 +0100
+
+4. Ile jest plików we wskazanym repozytorium? 
+27 obiektów
+
+$ git clone http://github.com/elois/Test-Ruby/
+Cloning into 'Test-Ruby'...
+warning: redirecting to https://github.com/elois/Test-Ruby/
+remote: Counting objects: 27, done.
+remote: Compressing objects: 100% (19/19), done.
+remote: Total 27 (delta 8), reused 21 (delta 6), pack-reused 0
+Unpacking objects: 100% (27/27), done.
+
+5. Jaka jest zawartość pliku README.md
+
+Test-Ruby
+To repozytorium zawiera zadania do wykonania z przedmiotu Tworzenie aplikacji bazodanowych
+
+6. W katalogu TwApB utworzyć repozytorium Git.
+git init Git
+Initialized empty Git repository in C:/Users/Marek/Documents/Github/TwApB/Git/.git/
+
+7. Zapisać w nim plik 'ImieNazwisko' i zapisać bieżący stan pliku w repozytorium.
+
+8. Do innego katalogu sklonować repozytorium zdalne https://github.com/elois/Test-Ruby
+
+git clone http://github.com/elois/Test-Ruby/
+Cloning into 'Test-Ruby'...
+warning: redirecting to https://github.com/elois/Test-Ruby/
+remote: Counting objects: 27, done.
+remote: Compressing objects: 100% (19/19), done.
+remote: Total 27 (delta 8), reused 21 (delta 6), pack-reused 0
+Unpacking objects: 100% (27/27), done.
